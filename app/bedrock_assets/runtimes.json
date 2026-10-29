@@ -1,0 +1,20 @@
+{
+  "arm64": {
+    "tag": "v1.8.5",
+    "url": "https://github.com/minecraft-linux/macos-builder/releases/download/v1.8.5/Minecraft.Bedrock.Launcher.dmg",
+    "sha256": "1faa08ed77f998a4c049b597300525761c5543209de5e51199ab32aa611197f4",
+    "size": 307070990,
+    "minMacOS": "13.0",
+    "source": "https://github.com/minecraft-linux/macos-builder",
+    "releaseNotes": "https://github.com/minecraft-linux/macos-builder/releases/tag/v1.8.5"
+  },
+  "x86_64": {
+    "tag": "v1.7.6-572",
+    "url": "https://github.com/minecraft-linux/macos-builder/releases/download/v1.7.6-572/Minecraft_Bedrock_Launcher_v1.7.6-macOS-x86_64-0.2.572_macOS_10.13.0.dmg",
+    "sha256": "12399cb8fae9dec70a63707658f16dc9b875f4a02f5de351a64dd08fe72aaae2",
+    "size": 136597760,
+    "minMacOS": "10.13",
+    "source": "https://github.com/minecraft-linux/macos-builder",
+    "releaseNotes": "https://github.com/minecraft-linux/macos-builder/releases/tag/v1.7.6-572"
+  }
+}
