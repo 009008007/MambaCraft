@@ -1,0 +1,28 @@
+{
+  "id": "mamba-arm64-bridge-3",
+  "games": {
+    "1.21.132.1": 972113201,
+    "1.26.52.3": 972605203
+  },
+  "module": {
+    "sha256": "a8cb8ee1c5af06831776552e0a815d0454432fa9e34e6300133be6a46b4d4a57",
+    "source": "source/mamba_compat.c",
+    "compiler": "Zig 0.14.1 clang, aarch64-linux-android, no bundled link stubs"
+  },
+  "sdk": {
+    "version": "PlayFabMultiplayer Android SDK 1.8.4",
+    "url": "https://github.com/PlayFab/PlayFabMultiplayer/releases/download/v1.8.4/Microsoft.PlayFab.PlayFabMultiplayer.Cpp.AndroidRelease.zip",
+    "size": 19678352,
+    "sha256": "886b983d71c215f64141b7b7ddeeb4faffc1221974dab426c73af8e44a837ed1",
+    "member": "bin/arm64-v8a/libPlayFabMultiplayer.so",
+    "librarySize": 35961384,
+    "librarySha256": "f78079025ffdc054a808d08ab8b3310ddda268e8edffcdd12c6b1b0a14131f5b"
+  },
+  "sources": [
+    "https://github.com/minecraft-linux/mcpelauncher-core/blob/master/src/minecraft_utils.cpp",
+    "https://github.com/minecraft-linux/mcpelauncher-manifest/issues/2007",
+    "https://github.com/PlayFab/PlayFabMultiplayer/releases/tag/v1.8.4",
+    "https://github.com/minecraft-linux/libc-shim/blob/master/src/statvfs.h",
+    "https://github.com/apple-oss-distributions/xnu/blob/main/bsd/sys/_types.h"
+  ]
+}
